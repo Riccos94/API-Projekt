@@ -17,7 +17,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-// Detta måste finnas, annars får du exakt "No operations defined..."
+// Detta måste finnas, annars får du exakt "No operations defined.Hej"
 app.MapControllers();
 
 app.Run();
