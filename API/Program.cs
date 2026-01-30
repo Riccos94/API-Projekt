@@ -1,6 +1,6 @@
 ﻿var builder = WebApplication.CreateBuilder(args);
 
-// Controllers + Swagger
+// Controllers + SwaggerAPI
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
